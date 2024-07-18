@@ -1,0 +1,676 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up?",
+        "Howdy",
+        "Greetings",
+        "Good morning",
+        "Good evening",
+        "Hey there",
+        "Hi there"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Greetings! How can I assist you today?",
+        "Hello! How can I make your day better?",
+        "Hi! What can I help you with today?",
+        "Hey! How's it going?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Catch you later",
+        "Farewell",
+        "See you soon",
+        "Have a great day",
+        "Talk to you later",
+        "See you around"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Take care! Hope to see you again soon.",
+        "Farewell! Have a great day.",
+        "Goodbye! Have a wonderful day.",
+        "See you! Take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Much appreciated",
+        "Thanks a bunch",
+        "Cheers",
+        "Thank you so much",
+        "I appreciate it",
+        "Thanks a ton"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're welcome!",
+        "Glad to assist!",
+        "No problem!",
+        "It was my pleasure!",
+        "Always happy to help!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What products are available?",
+        "What can I buy here?",
+        "Show me your products",
+        "What are your products?",
+        "Do you have a product list?",
+        "What do you offer?",
+        "Can you tell me what you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea",
+        "Our main products are coffee and tea",
+        "We offer a variety of coffee and tea",
+        "You can buy different types of coffee and tea from us.",
+        "Our products include coffee and tea."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "What payment methods do you accept?",
+        "Can I use my credit card?",
+        "Is Paypal an option?",
+        "Do you accept VISA?",
+        "How can I pay?",
+        "What are your accepted payment methods?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "You can pay with VISA, Mastercard, and Paypal",
+        "We accept credit cards and Paypal for payments.",
+        "You can use VISA, Mastercard, or Paypal to pay."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "What is the delivery time?",
+        "How soon can I receive my order?",
+        "When will my order arrive?",
+        "What are your delivery times?",
+        "Delivery duration?",
+        "How fast is your shipping?",
+        "Estimated delivery time?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "Your order will arrive in 2-4 days",
+        "It usually takes 2-4 days for delivery.",
+        "Expect your delivery in 2-4 days."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh",
+        "Say something funny",
+        "I need a laugh",
+        "Got any jokes?",
+        "Humor me",
+        "Cheer me up with a joke",
+        "Can you tell a funny story?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why don't some couples go to the gym? Because some relationships don't work out.",
+        "Why was the math book sad? Because it had too many problems."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "What are your opening times?",
+        "What are your business hours?",
+        "When do you close?",
+        "Business hours?",
+        "Store hours?",
+        "Operating hours?",
+        "What time do you open?",
+        "What time do you close?"
+      ],
+      "responses": [
+        "We are open from 9 AM to 5 PM, Monday to Friday.",
+        "Our business hours are 9 AM to 5 PM, Monday to Friday.",
+        "We operate from 9 AM to 5 PM on weekdays.",
+        "Our store is open from 9 AM to 5 PM, Monday to Friday.",
+        "We are open Monday to Friday, from 9 AM to 5 PM."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "Where is your store?",
+        "How do I find you?",
+        "Where can I find your shop?",
+        "Store location?",
+        "Where is your office?",
+        "Business address?",
+        "Where can I visit you?",
+        "Location details?"
+      ],
+      "responses": [
+        "We are located at 123 Coffee St, Brewtown.",
+        "Our address is 123 Coffee St, Brewtown.",
+        "You can find us at 123 Coffee St, Brewtown.",
+        "Visit us at 123 Coffee St, Brewtown.",
+        "Our store is at 123 Coffee St, Brewtown."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What is your phone number?",
+        "Can I get your contact details?",
+        "How do I reach you?",
+        "What is your email address?",
+        "Contact information?",
+        "How can I get in touch?",
+        "Customer service contact?",
+        "How to contact?",
+        "Phone number and email?"
+      ],
+      "responses": [
+        "You can contact us at (123) 456-7890.",
+        "Our phone number is (123) 456-7890.",
+        "You can email us at contact@coffeetea.com.",
+        "Reach us at (123) 456-7890 or contact@coffeetea.com.",
+        "For inquiries, call (123) 456-7890 or email contact@coffeetea.com."
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Can I see the menu?",
+        "Show me your menu",
+        "What's on the menu?",
+        "Menu please",
+        "Do you have a menu?",
+        "Can I get the menu?",
+        "Menu options?",
+        "What are your menu items?",
+        "Can you show me the menu?",
+        "What's available on the menu?"
+      ],
+      "responses": [
+        "Here is our menu: [link to menu]",
+        "You can view our menu here: [link to menu]",
+        "Check out our menu here: [link to menu]",
+        "Our menu is available here: [link to menu]",
+        "Find our menu at: [link to menu]"
+      ]
+    },
+    {
+      "tag": "reservation",
+      "patterns": [
+        "Can I make a reservation?",
+        "How do I reserve a table?",
+        "I want to book a table",
+        "Reservation please",
+        "Can I book a table?",
+        "How to reserve?",
+        "Table booking?",
+        "Can I schedule a reservation?",
+        "Reserve a table",
+        "How do I book a reservation?"
+      ],
+      "responses": [
+        "You can make a reservation by calling us at (123) 456-7890.",
+        "Please call (123) 456-7890 to book a table.",
+        "Reservations can be made by contacting us at (123) 456-7890.",
+        "Call (123) 456-7890 to reserve a table.",
+        "To book a table, please call (123) 456-7890."
+      ]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "How do I cancel my order?",
+        "I need to cancel my order",
+        "Can I cancel my order?",
+        "Order cancellation",
+        "Cancel my order",
+        "How to cancel an order?",
+        "Cancel order process?",
+        "Can I stop my order?",
+        "Order cancellation request",
+        "How to cancel?"
+      ],
+      "responses": [
+        "To cancel your order, please contact our support team at support@coffeetea.com.",
+        "You can cancel your order by emailing us at support@coffeetea.com.",
+        "Please email support@coffeetea.com to cancel your order.",
+        "Contact support@coffeetea.com to cancel your order.",
+        "For order cancellation, email support@coffeetea.com."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "How do I get a refund?",
+        "I want a refund",
+        "Can I get a refund?",
+        "Refund process",
+        "Refund policy",
+        "How to request a refund?",
+        "Refund request",
+        "Can I have a refund?",
+        "Requesting a refund",
+        "How do refunds work?"
+      ],
+      "responses": [
+        "For refunds, please contact our support team at support@coffeetea.com.",
+        "You can request a refund by emailing us at support@coffeetea.com.",
+        "Our refund policy is available on our website. For more details, contact support@coffeetea.com.",
+        "To get a refund, email us at support@coffeetea.com.",
+        "Please contact support@coffeetea.com for refund requests."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "How do I give feedback?",
+        "I want to provide feedback",
+        "Can I leave a review?",
+        "Feedback process",
+        "Where can I give feedback?",
+        "Can I give feedback?",
+        "How to provide feedback?",
+        "Where to leave a review?",
+        "Customer feedback",
+        "Feedback submission"
+      ],
+      "responses": [
+        "We appreciate your feedback! Please email us at feedback@coffeetea.com.",
+        "You can leave your feedback by emailing feedback@coffeetea.com.",
+        "To provide feedback, please contact us at feedback@coffeetea.com.",
+        "Email us at feedback@coffeetea.com to share your feedback.",
+        "Your feedback is valuable to us. Email feedback@coffeetea.com."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Do you have any discounts?",
+        "Are there any promotions?",
+        "Any deals available?",
+        "Current discounts",
+        "Special offers",
+        "Are there any deals?",
+        "Discount offers?",
+        "Promotions available?",
+        "What are the current discounts?",
+        "Do you have special deals?"
+      ],
+      "responses": [
+        "Check our website for current discounts and promotions.",
+        "We have special offers listed on our website.",
+        "Visit our website for the latest deals and discounts.",
+        "Current promotions are available on our website.",
+        "For discounts, check our special offers page."
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "Do you have options for allergies?",
+        "What about food allergies?",
+        "Are your products allergy-friendly?",
+        "Allergy information",
+        "Do you have gluten-free options?",
+        "What allergy-friendly options do you have?",
+        "Are there gluten-free items?",
+        "Food allergy options?",
+        "Allergy considerations?",
+        "Gluten-free menu?"
+      ],
+      "responses": [
+        "We offer gluten-free and dairy-free options. Please check our menu for details.",
+        "Our menu includes items that are suitable for various allergies. Please inform our staff of any specific needs.",
+        "We take allergies seriously. Check our menu for allergy-friendly options.",
+        "Yes, we have options for people with food allergies. Look at our menu for more.",
+        "For allergy information, please refer to our menu."
+      ]
+    },
+    {
+      "tag": "sustainability",
+      "patterns": [
+        "Are your products sustainable?",
+        "Do you use eco-friendly packaging?",
+        "What is your sustainability policy?",
+        "Sustainability information",
+        "Are your products ethically sourced?",
+        "Eco-friendly practices?",
+        "Sustainable packaging?",
+        "Environmentally friendly?",
+        "Sustainable products?",
+        "What are your sustainability practices?"
+      ],
+      "responses": [
+        "We are committed to sustainability and use eco-friendly packaging.",
+        "Our products are ethically sourced and we prioritize sustainability.",
+        "You can read about our sustainability practices on our website.",
+        "We focus on eco-friendly and sustainable practices.",
+        "Our sustainability policy is available on our website."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Do you host events?",
+        "Are there any upcoming events?",
+        "Can I book an event space?",
+        "Event hosting",
+        "Upcoming events",
+        "Event space booking?",
+        "Can I reserve for an event?",
+        "What events do you host?",
+        "Event schedule?",
+        "Hosting events?"
+      ],
+      "responses": [
+        "We host events regularly. Check our website for upcoming events.",
+        "You can book our space for events by contacting us at events@coffeetea.com.",
+        "For event hosting inquiries, please email events@coffeetea.com.",
+        "To book an event space, email events@coffeetea.com.",
+        "Our upcoming events are listed on our website."
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Do you have free WiFi?",
+        "Is WiFi available?",
+        "Can I use the internet here?",
+        "WiFi access",
+        "Internet availability",
+        "Is there WiFi?",
+        "Can I connect to WiFi?",
+        "Do you provide WiFi?",
+        "Free WiFi?",
+        "Is there internet access?"
+      ],
+      "responses": [
+        "Yes, we offer free WiFi for our customers.",
+        "You can enjoy free WiFi while you visit us.",
+        "We provide free internet access for our customers.",
+        "Feel free to use our complimentary WiFi.",
+        "Yes, we have free WiFi available."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "What is the status of my order?",
+        "Where is my order?",
+        "Can I check my order status?",
+        "Order tracking",
+        "Track my order",
+        "Order status?",
+        "How can I track my order?",
+        "Check order status?",
+        "Order update?",
+        "Where's my order?"
+      ],
+      "responses": [
+        "You can check the status of your order on our website using your order ID.",
+        "Please visit our order tracking page and enter your order ID to see the status.",
+        "To track your order, go to our tracking page and enter your order details.",
+        "Check your order status on our website using your order ID.",
+        "Track your order by visiting our order tracking page."
+      ]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": [
+        "Do you have a loyalty program?",
+        "Tell me about your loyalty program",
+        "How does your loyalty program work?",
+        "Loyalty points",
+        "Rewards program",
+        "Customer loyalty program?",
+        "Loyalty benefits?",
+        "How to earn loyalty points?",
+        "Rewards for loyal customers?",
+        "What is your loyalty program?"
+      ],
+      "responses": [
+        "Yes, we have a loyalty program. You can sign up on our website.",
+        "Our loyalty program offers points for every purchase that you can redeem for discounts.",
+        "Join our rewards program to earn points and enjoy exclusive benefits.",
+        "Sign up for our loyalty program on our website to start earning points.",
+        "Our loyalty program provides rewards for repeat customers."
+      ]
+    },
+    {
+      "tag": "membership",
+      "patterns": [
+        "How do I become a member?",
+        "Membership benefits",
+        "Tell me about your membership",
+        "Member perks",
+        "Sign up for membership",
+        "How to join?",
+        "Member advantages?",
+        "Membership signup?",
+        "Join as a member?",
+        "Membership info?"
+      ],
+      "responses": [
+        "You can become a member by signing up on our website.",
+        "Membership offers various perks such as discounts and early access to new products.",
+        "Sign up for our membership to enjoy exclusive benefits and offers.",
+        "Join our membership program on our website for special perks.",
+        "Our membership program offers numerous benefits."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint",
+        "How do I file a complaint?",
+        "Customer complaint",
+        "I want to complain",
+        "Complaint process",
+        "Where to complain?",
+        "File a complaint?",
+        "Customer service complaint?",
+        "How can I complain?",
+        "Complaint submission?"
+      ],
+      "responses": [
+        "We are sorry to hear that. Please email your complaint to complaints@coffeetea.com.",
+        "You can file a complaint by contacting us at complaints@coffeetea.com.",
+        "To file a complaint, please reach out to our customer service team at complaints@coffeetea.com.",
+        "Email your complaint to complaints@coffeetea.com and we will address it.",
+        "We take complaints seriously. Please email complaints@coffeetea.com."
+      ]
+    },
+    {
+      "tag": "job_openings",
+      "patterns": [
+        "Are you hiring?",
+        "Job openings",
+        "Careers",
+        "Employment opportunities",
+        "Current job vacancies",
+        "Job vacancies?",
+        "Hiring now?",
+        "Employment options?",
+        "Available positions?",
+        "Career opportunities?"
+      ],
+      "responses": [
+        "Yes, we are hiring. Please check our careers page for current job openings.",
+        "You can view and apply for job openings on our website.",
+        "Visit our careers page to see available positions and apply online.",
+        "We have job openings listed on our careers page.",
+        "Check our website for current employment opportunities."
+      ]
+    },
+    {
+      "tag": "partnerships",
+      "patterns": [
+        "Do you have partnership opportunities?",
+        "How do I become a partner?",
+        "Partnership inquiries",
+        "Business partnerships",
+        "Collaborations",
+        "Partner with you?",
+        "Business collaboration?",
+        "Partner opportunities?",
+        "How to become a partner?",
+        "Collaboration options?"
+      ],
+      "responses": [
+        "For partnership opportunities, please contact us at partnerships@coffeetea.com.",
+        "You can inquire about partnerships by emailing us at partnerships@coffeetea.com.",
+        "We are open to collaborations. Reach out to us at partnerships@coffeetea.com for more information.",
+        "Contact partnerships@coffeetea.com for partnership inquiries.",
+        "Email partnerships@coffeetea.com to explore partnership opportunities."
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "Tell me about your products",
+        "Product details",
+        "Information about your items",
+        "What are the ingredients?",
+        "Product specifications",
+        "Details about your products?",
+        "What are your product ingredients?",
+        "Product information?",
+        "Item details?",
+        "Product specs?"
+      ],
+      "responses": [
+        "You can find detailed information about our products on our website.",
+        "Visit our product pages to learn more about ingredients and specifications.",
+        "For detailed product information, please check our website.",
+        "Our website has comprehensive details about each product.",
+        "Check our product pages for specifications and ingredients."
+      ]
+    },
+    {
+      "tag": "custom_orders",
+      "patterns": [
+        "Do you offer custom orders?",
+        "Can I customize my order?",
+        "Custom order process",
+        "Personalized orders",
+        "Order customization",
+        "Can I place a custom order?",
+        "How to customize my order?",
+        "Custom product orders?",
+        "Personalized order options?",
+        "Custom order details?"
+      ],
+      "responses": [
+        "Yes, we offer custom orders. Please contact us for more details.",
+        "You can customize your order by reaching out to our support team.",
+        "For custom orders, please email us at customorders@coffeetea.com.",
+        "Contact customorders@coffeetea.com for personalized order requests.",
+        "We provide order customization. Email customorders@coffeetea.com."
+      ]
+    },
+    {
+      "tag": "gift_cards",
+      "patterns": [
+        "Do you sell gift cards?",
+        "Can I buy a gift card?",
+        "Gift card purchase",
+        "How do I buy a gift card?",
+        "Gift cards available?",
+        "How to purchase gift cards?",
+        "Gift card options?",
+        "Where can I buy gift cards?",
+        "Gift card information?",
+        "Buying gift cards?"
+      ],
+      "responses": [
+        "Yes, we offer gift cards. You can purchase them on our website.",
+        "You can buy gift cards online through our website.",
+        "Visit our website to purchase gift cards for your friends and family.",
+        "Our gift cards are available for purchase on our website.",
+        "Buy gift cards from our online store."
+      ]
+    },
+    {
+      "tag": "seasonal_products",
+      "patterns": [
+        "Do you have seasonal products?",
+        "Seasonal items",
+        "Special seasonal offerings",
+        "Seasonal menu",
+        "What are your seasonal specials?",
+        "Seasonal product offerings?",
+        "Do you offer seasonal items?",
+        "What seasonal products are available?",
+        "Seasonal specials?",
+        "Seasonal product options?"
+      ],
+      "responses": [
+        "Yes, we offer seasonal products. Check our website for the latest seasonal items.",
+        "Our seasonal menu includes special offerings available for a limited time.",
+        "Visit our website to see our current seasonal specials.",
+        "We have special seasonal products. Check them out on our website.",
+        "Our seasonal items are listed on our website."
+      ]
+    }
+  ]
+}
